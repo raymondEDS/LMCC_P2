@@ -125,7 +125,7 @@ function checkOrder() {
 
   if (numberCorrect == sortedOrder.length){
     confirm(`You sorted the numbers! \n Congradulations! \n It took you ${swapCounter} clicks!`)
-    window.location.href = "finish.html";
+    window.location.href = "rainbowBlocks.html";
   }else{
     confirm(`A few more to go! \n Only ${numberInCorrect} left to sort!`)
 
