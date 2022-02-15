@@ -98,3 +98,9 @@ generatearray();
   
 // Calling BubbleSort function
 BubbleSort();
+
+function resetDoc(){
+    document.location.reload(true);
+  }
+const restart_sort = document.getElementById('restart_sort');
+restart_sort.addEventListener('click',resetDoc);
